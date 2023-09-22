@@ -66,7 +66,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:fontFamily="@font/montserrat"
-                android:text="Hello, Doguinho!"
+                android:text="Olá, Doguinho!"
                 android:textSize="18sp" />
 
 
@@ -116,7 +116,7 @@
                     android:drawableLeft="@drawable/search_maps"
                     android:fontFamily="@font/montserrat"
                     android:gravity="center"
-                    android:hint="Use my Location"
+                    android:hint="Minha Localização"
                     android:maxLength="100"
                     android:padding="20dp"
                     android:textSize="18sp" />
@@ -136,9 +136,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
+                android:layout_marginLeft="6dp"
                 android:fontFamily="@font/montserrat"
-                android:text="Hey,"
+                android:text="Ei,"
                 android:textSize="18sp" />
 
             <TextView
@@ -146,7 +146,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="80dp"
                 android:fontFamily="@font/montserrat"
-                android:text="what you looking for?"
+                android:text="Para onde vamos?"
                 android:textSize="18sp" />
 
         </LinearLayout>
