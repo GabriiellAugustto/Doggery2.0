@@ -13,8 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_margin="5dp"
-        android:background="#A1E1CEF3">
+        android:background="#DCE1CEF3">
 
         <ImageButton
             android:id="@+id/btnvoltar"
@@ -37,7 +36,7 @@
             android:src="@drawable/menuburguer"
             android:backgroundTint="#00FFFFFF"
             android:contentDescription="menu"
-            android:layout_marginLeft="220dp"
+            android:layout_marginLeft="215dp"
             android:layout_marginTop="5dp"/>
     </LinearLayout>
 
@@ -47,11 +46,11 @@
         android:orientation="vertical"
         android:gravity="bottom">
         <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="400dp"
+            android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:contentDescription="mensagem"
-            app:boxBackgroundColor="#A1E1CEF3"
+            app:boxBackgroundColor="#DCE1CEF3"
             app:boxBackgroundMode="outline"
             app:boxCornerRadiusBottomEnd="30dp"
             app:boxCornerRadiusBottomStart="30dp"

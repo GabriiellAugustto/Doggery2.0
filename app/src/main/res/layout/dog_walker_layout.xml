@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".DogWalkerActivity"
     android:orientation="vertical"
-    android:background="#A1E1CEF3">
+    android:background="#fff">
 
 
     <LinearLayout
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_margin="10dp">
+        android:background="#DCE1CEF3">
 
         <ImageButton
             android:id="@+id/btnvoltar"
@@ -90,7 +90,7 @@
             android:text="15/Sep - 17/Sep"
             android:fontFamily="@font/montserrat"
             android:textColor="#A555EC"
-            android:backgroundTint="#fff"
+            android:backgroundTint="#DCE1CEF3"
             android:layout_margin="20dp"/>
         <Button
             android:id="@+id/btnfiltro"
@@ -99,7 +99,7 @@
             android:text="Mais filtros +"
             android:fontFamily="@font/montserrat"
             android:textColor="#A555EC"
-            android:backgroundTint="#fff"
+            android:backgroundTint="#DCE1CEF3"
             android:layout_margin="20dp"/>
 
 
@@ -129,6 +129,7 @@
                     android:layout_width="300dp"
                     android:layout_height="150dp"
                     android:backgroundTint="#fff"
+                    android:rotationX="5"
                     app:cardCornerRadius="50dp">
 
                     <LinearLayout
@@ -141,31 +142,31 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/avatarh"/>
+                            android:src="@drawable/avatarh" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|top"
-                        android:gravity="center"
-                        android:orientation="vertical"
                         android:layout_marginLeft="20dp"
-                        android:layout_marginTop="10dp">
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Guilherme"
-                            android:textSize="16sp"
                             android:fontFamily="@font/montserrat"
-                            android:textColor="#685453"/>
+                            android:text="Guilherme"
+                            android:textColor="#685453"
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Grajaú, São Paulo"
-                            android:fontFamily="@font/montserrat"/>
+                            android:fontFamily="@font/montserrat"
+                            android:text="Grajaú, São Paulo" />
 
 
                     </LinearLayout>
@@ -174,17 +175,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|top"
+                        android:layout_marginTop="110dp"
                         android:gravity="center"
-                        android:orientation="vertical"
-                        android:layout_marginTop="110dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="R$ 50 | noite"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="16sp"
-                            android:textColor="#A555EC"/>
+                            android:text="R$ 50 | noite"
+                            android:textColor="#A555EC"
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -201,17 +202,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="4,5"
-                        android:fontFamily="@font/montserrat"
+                        android:layout_marginLeft="50dp"
                         android:layout_marginTop="88dp"
-                        android:layout_marginLeft="50dp"/>
+                        android:fontFamily="@font/montserrat"
+                        android:text="4,5" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/heart"
+                        android:layout_marginLeft="230dp"
                         android:layout_marginTop="110dp"
-                        android:layout_marginLeft="230dp"/>
+                        android:src="@drawable/heart" />
 
 
                 </androidx.cardview.widget.CardView>
@@ -230,6 +231,7 @@
                     android:layout_width="300dp"
                     android:layout_height="150dp"
                     android:backgroundTint="#fff"
+                    android:rotationX="5"
                     app:cardCornerRadius="50dp">
 
                     <LinearLayout
@@ -242,31 +244,31 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/avatarm"/>
+                            android:src="@drawable/avatarm" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|top"
-                        android:gravity="center"
-                        android:orientation="vertical"
                         android:layout_marginLeft="20dp"
-                        android:layout_marginTop="10dp">
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
                             android:text="Maria Alice"
-                            android:textSize="16sp"
-                            android:fontFamily="@font/montserrat"
-                            android:textColor="#685453"/>
+                            android:textColor="#685453"
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Interlagos, São Paulo"
-                            android:fontFamily="@font/montserrat"/>
+                            android:fontFamily="@font/montserrat"
+                            android:text="Interlagos, São Paulo" />
 
 
                     </LinearLayout>
@@ -275,17 +277,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|top"
+                        android:layout_marginTop="110dp"
                         android:gravity="center"
-                        android:orientation="vertical"
-                        android:layout_marginTop="110dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="R$ 70 | noite"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="16sp"
-                            android:textColor="#A555EC"/>
+                            android:text="R$ 70 | noite"
+                            android:textColor="#A555EC"
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -301,17 +303,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="4,5"
-                        android:fontFamily="@font/montserrat"
+                        android:layout_marginLeft="50dp"
                         android:layout_marginTop="88dp"
-                        android:layout_marginLeft="50dp"/>
+                        android:fontFamily="@font/montserrat"
+                        android:text="4,5" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/heart"
+                        android:layout_marginLeft="230dp"
                         android:layout_marginTop="110dp"
-                        android:layout_marginLeft="230dp"/>
+                        android:src="@drawable/heart" />
 
 
                 </androidx.cardview.widget.CardView>
@@ -330,6 +332,7 @@
                     android:layout_width="300dp"
                     android:layout_height="150dp"
                     android:backgroundTint="#fff"
+                    android:rotationX="5"
                     app:cardCornerRadius="50dp">
 
                     <LinearLayout
@@ -342,31 +345,31 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/avatarm"/>
+                            android:src="@drawable/avatarm" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|top"
-                        android:gravity="center"
-                        android:orientation="vertical"
                         android:layout_marginLeft="20dp"
-                        android:layout_marginTop="10dp">
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Marina"
-                            android:textSize="16sp"
                             android:fontFamily="@font/montserrat"
-                            android:textColor="#685453"/>
+                            android:text="Marina"
+                            android:textColor="#685453"
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Grajau, São Paulo"
-                            android:fontFamily="@font/montserrat"/>
+                            android:fontFamily="@font/montserrat"
+                            android:text="Grajau, São Paulo" />
 
 
                     </LinearLayout>
@@ -375,17 +378,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|top"
+                        android:layout_marginTop="110dp"
                         android:gravity="center"
-                        android:orientation="vertical"
-                        android:layout_marginTop="110dp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="R$ 80 | noite"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="16sp"
-                            android:textColor="#A555EC"/>
+                            android:text="R$ 80 | noite"
+                            android:textColor="#A555EC"
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -401,17 +404,120 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="4,5"
-                        android:fontFamily="@font/montserrat"
+                        android:layout_marginLeft="50dp"
                         android:layout_marginTop="88dp"
-                        android:layout_marginLeft="50dp"/>
+                        android:fontFamily="@font/montserrat"
+                        android:text="4,5" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/heart"
+                        android:layout_marginLeft="230dp"
                         android:layout_marginTop="110dp"
-                        android:layout_marginLeft="230dp"/>
+                        android:src="@drawable/heart" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:gravity="center">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardperfil3"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#fff"
+                    android:rotationX="5"
+                    app:cardCornerRadius="50dp">
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="top"
+                        android:layout_margin="20dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/avatarh" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="Jonas"
+                            android:textColor="#685453"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="IV Centenario, São Paulo" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="110dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="R$ 80 | noite"
+                            android:textColor="#A555EC"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                    <RatingBar
+
+                        style="@android:style/Widget.Holo.Light.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="90dp"
+                        android:numStars="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="88dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="4,5" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="110dp"
+                        android:src="@drawable/heart" />
 
 
                 </androidx.cardview.widget.CardView>

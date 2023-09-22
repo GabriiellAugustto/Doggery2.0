@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A1E1CEF3"
     android:orientation="vertical"
     tools:context=".HomeFragment">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#fff">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#A1E1CEF3"
+            android:background="#DCE1CEF3"
             android:gravity="right"
             android:orientation="horizontal">
 
@@ -38,6 +38,7 @@
                 android:src="@drawable/bell" />
 
             <ImageButton
+                android:id="@+id/btnperf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00FFFFFF"
@@ -169,8 +170,9 @@
                 android:layout_width="300dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
-                android:backgroundTint="#fff"
                 android:orientation="vertical"
+                android:rotationX="5"
+
                 app:cardCornerRadius="50dp">
 
 
@@ -179,8 +181,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|top"
                     android:layout_margin="20dp"
-                    android:orientation="vertical"
-                    android:background="#fff">
+                    android:background="#fff"
+                    android:orientation="vertical">
 
                     <ImageButton
                         android:id="@+id/btndogwalker"
@@ -233,7 +235,8 @@
             android:layout_marginTop="610dp"
             android:layout_marginBottom="100dp"
             android:contentDescription="scroll"
-            android:gravity="center">
+            android:gravity="center"
+            android:rotationX="5">
 
 
             <LinearLayout
@@ -251,15 +254,10 @@
                     android:orientation="vertical"
                     app:cardCornerRadius="50dp">
 
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="250dp"
-                    android:layout_height="150dp"
-                    android:layout_marginLeft="10dp"
-                    android:backgroundTint="#fff"
-                    android:orientation="vertical"
-                    app:cardCornerRadius="50dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/publiii" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -270,6 +268,27 @@
                     android:backgroundTint="#fff"
                     android:orientation="vertical"
                     app:cardCornerRadius="50dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/publii" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#fff"
+                    android:orientation="vertical"
+                    app:cardCornerRadius="50dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/publi" />
 
                 </androidx.cardview.widget.CardView>
 

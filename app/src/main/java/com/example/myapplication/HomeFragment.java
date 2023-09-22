@@ -16,6 +16,8 @@ import android.widget.ImageButton;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
+import org.w3c.dom.Text;
+
 import java.util.Date;
 
 
@@ -33,6 +35,7 @@ public class HomeFragment extends Fragment {
         ImageButton imageButton1 =(ImageButton) view.findViewById(R.id.btnchat);
         ImageButton imageButton2 = (ImageButton) view.findViewById(R.id.btnmais);
         ImageButton imageButton3 = (ImageButton) view.findViewById(R.id.btnnoti);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageButton imageButton4 = (ImageButton) view.findViewById(R.id.btnperf);
       
 
 
@@ -85,6 +88,17 @@ public class HomeFragment extends Fragment {
 
                 materialAlertDialogBuilder.show();
 
+            }
+        });
+
+
+        imageButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                materialAlertDialogBuilder.setTitle("Configurações");
+                materialAlertDialogBuilder.setIcon(R.drawable.icon_menu);
+                materialAlertDialogBuilder.setNegativeButton("Logoff",(dialog, which) -> onStop());
+;                materialAlertDialogBuilder.show();
             }
         });
 

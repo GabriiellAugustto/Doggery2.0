@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PedidosFragment"
-    android:background="#fff">
+    android:background="#fff" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="right"
-        android:background="#A1E1CEF3"
+        android:background="#DCE1CEF3"
         android:orientation="horizontal">
 
         <ImageButton
@@ -30,6 +30,7 @@
             android:src="@drawable/bell" />
 
         <ImageButton
+            android:id="@+id/btnperf2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#00FFFFFF"
@@ -41,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:background="#A1E1CEF3"
+        android:background="#DCE1CEF3"
         >
 
         <com.google.android.material.tabs.TabItem
