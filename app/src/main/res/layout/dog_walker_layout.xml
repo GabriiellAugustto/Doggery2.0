@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".DogWalkerActivity"
     android:orientation="vertical"
-    android:background="#fff">
+    android:background="#A1E1CEF3">
 
 
     <LinearLayout
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:contentDescription="localização"
-            app:boxBackgroundColor="#A1E1CEF3"
+            app:boxBackgroundColor="#fff"
             app:boxBackgroundMode="outline"
             app:boxCornerRadiusBottomEnd="30dp"
             app:boxCornerRadiusBottomStart="30dp"
@@ -84,20 +84,22 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btnage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="15/Sep - 17/Sep"
             android:fontFamily="@font/montserrat"
             android:textColor="#A555EC"
-            android:backgroundTint="#A1E1CEF3"
+            android:backgroundTint="#fff"
             android:layout_margin="20dp"/>
         <Button
+            android:id="@+id/btnfiltro"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Mais filtros +"
             android:fontFamily="@font/montserrat"
             android:textColor="#A555EC"
-            android:backgroundTint="#A1E1CEF3"
+            android:backgroundTint="#fff"
             android:layout_margin="20dp"/>
 
 
@@ -126,7 +128,7 @@
                     android:id="@+id/cardperfil"
                     android:layout_width="300dp"
                     android:layout_height="150dp"
-                    android:backgroundTint="#A1E1CEF3"
+                    android:backgroundTint="#fff"
                     app:cardCornerRadius="50dp">
 
                     <LinearLayout
@@ -227,7 +229,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="300dp"
                     android:layout_height="150dp"
-                    android:backgroundTint="#A1E1CEF3"
+                    android:backgroundTint="#fff"
                     app:cardCornerRadius="50dp">
 
                     <LinearLayout
@@ -327,7 +329,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="300dp"
                     android:layout_height="150dp"
-                    android:backgroundTint="#A1E1CEF3"
+                    android:backgroundTint="#fff"
                     app:cardCornerRadius="50dp">
 
                     <LinearLayout

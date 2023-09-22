@@ -11,7 +11,7 @@
         android:id="@+id/flFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#4BA6B0E8"
+        android:background="#fff"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView" />
 
 
@@ -22,7 +22,7 @@
         android:layout_alignBottom="@id/flFragment"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="2dp"
-        android:background="#A1E1CEF3"
+        android:background="#A555EC"
         app:menu="@menu/bottonnave_menu" />
 
 
